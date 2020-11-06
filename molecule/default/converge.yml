@@ -6,5 +6,3 @@
 
   roles:
     - role: ansible-role-qemu
-      qemu_systems:
-        - qemu-system-x86

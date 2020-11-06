@@ -1,15 +1,6 @@
 ---
 # tasks file for qemu
-- name: include assert.yml
-  include_tasks: assert.yml
-  run_once: yes
-
 - name: install qemu
   package:
-    name: qemu
-    state: present
-
-- name: install qemu systems
-  package:
-    name: "{{ qemu_systems }}"
+    name: qemu-kvm
     state: present
