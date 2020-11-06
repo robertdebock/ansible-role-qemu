@@ -5,4 +5,4 @@
 repository:
   description: Install qemu.
   homepage: https://robertdebock.nl/
-  topics: adauth, activedirectory, authentication, ansible, molecule, tox, playbook, hacktoberfest
+  topics: qemu, ansible, molecule, tox, playbook, hacktoberfest
