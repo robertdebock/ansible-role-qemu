@@ -1,0 +1,15 @@
+---
+- name: Verify
+  hosts: all
+  become: yes
+  gather_facts: yes
+
+  tasks:
+    - name: test qemu-kvm
+      command: qemu-kvm --version
+
+    - name: test qemu-system-x86_64
+      command: qemu-system-x86_64 --version
+
+    - name: test qemu-io
+      command: qemu-io --version

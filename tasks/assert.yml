@@ -1,0 +1,8 @@
+---
+- name: test if qemu_systems is set correctly
+  assert:
+    that:
+      - qemu_systems is iterable
+    quiet: yes
+  when:
+    - qemu_systems is defined
