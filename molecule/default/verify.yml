@@ -5,5 +5,5 @@
   gather_facts: yes
 
   tasks:
-    - name: test qemu-io
-      command: qemu-io --version
+    - name: test qemu-system-x86_64
+      command: /usr/bin/qemu-system-x86_64 --version

@@ -4,7 +4,7 @@ Install qemu.
 
 |Travis|GitHub|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-qemu.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-qemu)|[![github](https://github.com/robertdebock/ansible-role-qemu/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-qemu/actions)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/robertdebock/qemu)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/robertdebock/qemu)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-qemu.svg)](https://github.com/robertdebock/ansible-role-qemu/releases/)|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-qemu.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-qemu)|[![github](https://github.com/robertdebock/ansible-role-qemu/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-qemu/actions)|[![quality](https://img.shields.io/ansible/quality/51665)](https://galaxy.ansible.com/robertdebock/qemu)|[![downloads](https://img.shields.io/ansible/role/d/51665)](https://galaxy.ansible.com/robertdebock/qemu)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-qemu.svg)](https://github.com/robertdebock/ansible-role-qemu/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
