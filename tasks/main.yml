@@ -1,5 +1,6 @@
 ---
 # tasks file for qemu
+
 - name: install qemu
   package:
     name: qemu-kvm
