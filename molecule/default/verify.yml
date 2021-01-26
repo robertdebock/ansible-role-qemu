@@ -5,5 +5,7 @@
   gather_facts: yes
 
   tasks:
-    - name: test qemu-system-x86_64
-      command: /usr/bin/qemu-system-x86_64 --version
+    - name: test qemu-kvm
+      command: qemu-kvm --version
+      environment:
+        PATH: "/bin:/sbin:/usr/bin:/usr/sbin:/usr/libexec"
