@@ -3,5 +3,5 @@
 
 - name: install qemu
   package:
-    name: qemu-kvm
+    name: "{{ qemu_packages }}"
     state: present
