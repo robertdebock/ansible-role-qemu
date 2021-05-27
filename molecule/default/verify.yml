@@ -13,6 +13,7 @@
 
   tasks:
     - name: test qemu-kvm
-      command: "{{ qemu_verify_command }} --version"
+      ansible.builtin.command:
+        cmd: "{{ qemu_verify_command }} --version"
       environment:
         PATH: "/bin:/sbin:/usr/bin:/usr/sbin:/usr/libexec"
