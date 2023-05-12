@@ -12,7 +12,7 @@
     qemu_verify_command: "{{ _qemu_verify_command[ansible_os_family] | default(_qemu_verify_command['default']) }}"
 
   tasks:
-    - name: test qemu-kvm
+    - name: Test qemu-kvm
       ansible.builtin.command:
         cmd: "{{ qemu_verify_command }} --version"
       environment:
