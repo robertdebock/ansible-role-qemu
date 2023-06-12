@@ -5,4 +5,4 @@
 repository:
   description: Install qemu.
   homepage: https://robertdebock.nl/
-  topics: qemu, ansible, molecule, tox, playbook
+  topics: qemu, system, ansible, molecule, tox, playbook
