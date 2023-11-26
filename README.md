@@ -1,4 +1,4 @@
-# Ansible role [qemu](#qemu)
+# [Ansible role qemu](#qemu)
 
 Install qemu.
 
