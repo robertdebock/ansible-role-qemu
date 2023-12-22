@@ -1,5 +1,7 @@
 # [Ansible role qemu](#qemu)
 
+> THIS ROLE HAS BEEN ARCHIVED AS OF DEC 2023.
+
 Install qemu.
 
 |GitHub|GitLab|Downloads|Version|
